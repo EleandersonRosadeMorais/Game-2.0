@@ -54,7 +54,6 @@ public class Game2 {
 
 // Looping das tentativas
                 while (!acertou) {
-                    System.out.println(numeroSecreto);
                     System.out.println("Estou pensando em um número entre 1 e 100...");
                     System.out.print("Digite sua tentativa: ");
                     int palpite = ler.nextInt();
